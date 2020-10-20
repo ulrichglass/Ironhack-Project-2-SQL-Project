@@ -3,25 +3,22 @@ USE sql_project;
 DROP TABLE IF EXISTS comments;
 CREATE TABLE IF NOT EXISTS sql_project.comments (
 	id INT,
-	name VARCHAR(100),
+	name VARCHAR(255),
 	anonymous BOOL,
-	hostProgramName VARCHAR(10),
+	hostProgramName VARCHAR(255),
 	graduatingYear INT,
 	isAlumni BOOL,
-	jobTitle VARCHAR(50),
+	jobTitle VARCHAR(255),
 	tagline VARCHAR(255),
-	body VARCHAR(255),
 	createdAt DATE,
 	queryDate DATE,
-	program VARCHAR(100),
-	user VARCHAR(100),
-	overallScore FLOAT,
-	comments VARCHAR(100),
-	overall FLOAT,
-	curriculum FLOAT,
-	jobSupport FLOAT,
-	reviewBody VARCHAR(255),
-	school VARCHAR(50));
+	program VARCHAR(255),
+	overallScore VARCHAR(255),
+	overall VARCHAR(255),
+	curriculum VARCHAR(255),
+	jobSupport VARCHAR(255),
+	review_body TEXT,
+	school VARCHAR(255));
 
 DROP TABLE IF EXISTS locations;
 CREATE TABLE IF NOT EXISTS locations (

@@ -1,0 +1,15 @@
+index,id,description,country.id,country.name,country.abbrev,city.id,city.name,city.keyword,state.id,state.name,state.abbrev,state.keyword,school,school_id
+0,15901,"Berlin, Germany",57,Germany,DE,31156,Berlin,berlin,NULL,NULL,NULL,NULL,ironhack,10828
+1,16022,"Mexico City, Mexico",29,Mexico,MX,31175,"Mexico City",mexico-city,NULL,NULL,NULL,NULL,ironhack,10828
+2,16086,"Amsterdam, Netherlands",59,Netherlands,NL,31168,Amsterdam,amsterdam,NULL,NULL,NULL,NULL,ironhack,10828
+3,16088,"Sao Paulo, Brazil",42,Brazil,BR,31121,"Sao Paulo",sao-paulo,NULL,NULL,NULL,NULL,ironhack,10828
+4,16109,"Paris, France",38,France,FR,31136,Paris,paris,NULL,NULL,NULL,NULL,ironhack,10828
+5,16375,"Miami, FL, United States",1,"United States",US,31,Miami,miami,11,Florida,FL,florida,ironhack,10828
+6,16376,"Madrid, Spain",12,Spain,ES,31052,Madrid,madrid,NULL,NULL,NULL,NULL,ironhack,10828
+7,16377,"Barcelona, Spain",12,Spain,ES,31170,Barcelona,barcelona,NULL,NULL,NULL,NULL,ironhack,10828
+8,16709,"Lisbon, Portugal",28,Portugal,PT,31075,Lisbon,lisbon,NULL,NULL,NULL,NULL,ironhack,10828
+9,17233,Online,NULL,NULL,NULL,NULL,NULL,NULL,1,Online,Online,online,ironhack,10828
+0,15704,"San Francisco, CA, United States",1,"United States",US,13,"San Francisco",san-francisco,6,California,CA,california,app-academy,10525
+1,15705,"New York City, NY, United States",1,"United States",US,1507,NYC,new-york-city,34,"New York",NY,new-york,app-academy,10525
+2,15862,Online,NULL,NULL,NULL,NULL,NULL,NULL,1,Online,Online,online,app-academy,10525
+0,16013,Online,NULL,NULL,NULL,NULL,NULL,NULL,1,Online,Online,online,springboard,11035
