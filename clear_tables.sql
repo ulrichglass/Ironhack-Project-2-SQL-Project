@@ -1,0 +1,12 @@
+USE sql_project;
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM badges;
+DELETE FROM badges_schools;
+DELETE FROM cities;
+DELETE FROM comments;
+DELETE FROM countries;
+DELETE FROM courses;
+DELETE FROM locations;
+DELETE FROM schools;
+DELETE FROM states;
+SET SQL_SAFE_UPDATES = 1;
